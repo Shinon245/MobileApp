@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "188154065827",
+    "firebase_url": "https://mytutor-6ab60.firebaseio.com",
+    "project_id": "mytutor-6ab60",
+    "storage_bucket": "mytutor-6ab60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188154065827:android:31b13cee5ba508ff",
+        "android_client_info": {
+          "package_name": "edu.coloradomesa.mytutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188154065827-7idlq9t3v5ppb4qdv5l9gl2jvsckqvp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg_HCPI4XIMXg1Ri97AoKBQpzw7hpdyyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

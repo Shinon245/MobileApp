@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="edu.coloradomesa.mytutor.SetClassesActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/class_help1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_login"
+                android:paddingBottom="20dp"
+                android:text = "@string/class_help"
+                android:textColorHint="@drawable/selector" />
+
+            <TextView
+                android:id="@+id/class_help2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/input_login"
+                android:paddingBottom="40dp"
+                android:text = "@string/class_help"
+                android:textColorHint="@drawable/selector" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="class ID">
+
+                <EditText
+                    android:id="@+id/class_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/input_login"
+                    android:textColorHint="@drawable/selector" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="class ID">
+
+                <EditText
+                    android:id="@+id/class_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/input_login"
+                    android:textColorHint="@drawable/selector" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/btn_login_bg"
+                android:text="SUBMIT"
+                android:layout_marginTop="20dip"
+                android:textColor="@color/btn_login_txt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
